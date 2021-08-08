@@ -1,8 +1,0 @@
-1,2c1,2
-< MENOR = 1
-< MAIOR = 7
-\ No newline at end of file
----
-> MENOR = 2
-> MAIOR = 2
-\ No newline at end of file
