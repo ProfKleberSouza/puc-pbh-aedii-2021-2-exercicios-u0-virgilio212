@@ -1,8 +1,25 @@
 #include <stdio.h>
 
 int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
-   return 0;
+	
+		int num, total=0;
+		double nota, soma=0;
+		int k;
+		
+		
+		for (k=1; k<5; k++) {
+			num=0;
+			scanf("%i", &num);
+			soma=num+soma;
+			total++; }
+			
+			nota=soma/total;
+			printf("NOTA = %.1f", nota);
+			
+			if (nota>=6)
+				printf(" (APROVADO)");
+			else
+				printf(" (REPROVADO)");
+
+		
 }
